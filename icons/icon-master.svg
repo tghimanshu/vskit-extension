@@ -1,0 +1,31 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#334155"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="play" x1="36" y1="36" x2="68" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer badge -->
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg)"/>
+  <rect x="14" y="14" width="100" height="100" rx="18" fill="#0B1220"/>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="23.5" stroke="#FFFFFF" stroke-opacity="0.22"/>
+
+  <!-- Play triangle -->
+  <path d="M36 35.5L36 92.5L72 64L36 35.5Z" fill="url(#play)"/>
+
+  <!-- Speaker body -->
+  <rect x="70" y="50" width="10" height="28" rx="2" fill="#E5E7EB"/>
+  <path d="M80 50L92 42V86L80 78V50Z" fill="#E5E7EB"/>
+
+  <!-- Sound waves -->
+  <path d="M95 52C100 56 103 60 103 64C103 68 100 72 95 76" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/>
+  <path d="M99 44C107 50 112 57 112 64C112 71 107 78 99 84" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Next arrow accent -->
+  <path d="M88 20L108 30L88 40L93 30L88 20Z" fill="#34D399"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="440" height="280" viewBox="0 0 440 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="440" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="card" x1="34" y1="70" x2="292" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="40" y1="20" x2="210" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="softGlow" x="0" y="0" width="440" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="440" height="280" fill="url(#bg)"/>
+
+  <!-- Ambient glow -->
+  <circle cx="95" cy="36" r="70" fill="#22D3EE" fill-opacity="0.22" filter="url(#softGlow)"/>
+  <circle cx="382" cy="222" r="84" fill="#34D399" fill-opacity="0.14" filter="url(#softGlow)"/>
+
+  <!-- Main title -->
+  <text x="30" y="52" fill="#F8FAFC" font-size="25" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">VSKit Auto Unmute</text>
+  <text x="30" y="83" fill="#93C5FD" font-size="25" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">&amp; Auto Next</text>
+
+  <!-- Video card mock -->
+  <rect x="30" y="106" width="258" height="146" rx="16" fill="url(#card)" stroke="#334155" stroke-opacity="0.9"/>
+  <rect x="44" y="121" width="230" height="86" rx="10" fill="#111827"/>
+  <rect x="44" y="214" width="230" height="8" rx="4" fill="#233249"/>
+  <rect x="44" y="214" width="132" height="8" rx="4" fill="#22D3EE"/>
+
+  <!-- Play + speaker icon on card -->
+  <path d="M96 140L96 188L132 164L96 140Z" fill="url(#accent)"/>
+  <rect x="150" y="154" width="8" height="20" rx="2" fill="#E5E7EB"/>
+  <path d="M158 154L170 147V181L158 174V154Z" fill="#E5E7EB"/>
+  <path d="M174 153C179 157 182 160 182 164C182 168 179 171 174 175" stroke="#93C5FD" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Next episode arrow badge -->
+  <rect x="304" y="125" width="108" height="94" rx="14" fill="#0B1220" stroke="#334155"/>
+  <text x="322" y="154" fill="#CBD5E1" font-size="13" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">NEXT EP</text>
+  <path d="M331 174L370 174" stroke="#60A5FA" stroke-width="6" stroke-linecap="round"/>
+  <path d="M363 160L386 174L363 188" fill="#34D399"/>
+
+  <!-- Tagline -->
+  <text x="30" y="268" fill="#C7D2FE" font-size="15" font-weight="500" font-family="DejaVu Sans, Arial, sans-serif">Less clicking. More watching.</text>
+</svg>
